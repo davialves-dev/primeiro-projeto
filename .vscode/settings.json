@@ -18,7 +18,6 @@
   "workbench.iconTheme": "material-icon-theme",
   "workbench.colorTheme": "Omni",
 
-
   // terminal
   "terminal.integrated.fontSize": 16,
   "terminal.integrated.defaultProfile.windows": "Git Bash",
@@ -26,5 +25,6 @@
     "Git Bash": {
       "source": "Git Bash"
     }
-  }
+  },
+  "liveServer.settings.port": 5501
 }

@@ -5,23 +5,23 @@
 }
 
 :root {
- --text-color: white;
- --bg-url: url(./assets/bg-mobile.jpg);
- --stroke-color: rgba(255, 255, 255, 0.5);
- --surface-color: rgba(255, 255, 255, 0.05);
- --surface-color-hover: rgba(0, 0, 0, 0.02);
- --highlight-color: rgba(255, 255, 255, 0.2);
- --switch-bg-url: url(./assets/moon-stars.svg);
+  --text-color: white;
+  --bg-url: url(./assets/bg-mobile.jpg);
+  --stroke-color: rgba(255, 255, 255, 0.5);
+  --surface-color: rgba(255, 255, 255, 0.05);
+  --surface-color-hover: rgba(0, 0, 0, 0.02);
+  --highlight-color: rgba(255, 255, 255, 0.2);
+  --switch-bg-url: url(./assets/moon-stars.svg);
 }
 
 .light {
- --text-color: black;
- --bg-url: url(./assets/bg-mobile-light.jpg);
- --stroke-color: rgba(0, 0, 0, 0.5);
- --surface-color: rgba(0, 0, 0, 0.05);
- --surface-color-hover: rgba(0, 0, 0, 0.02);
- --highlight-color: rgba(0, 0, 0, 0.1);
- --switch-bg-url: url(./assets/sun.svg);
+  --text-color: black;
+  --bg-url: url(./assets/bg-mobile-light.jpg);
+  --stroke-color: rgba(0, 0, 0, 0.5);
+  --surface-color: rgba(0, 0, 0, 0.05);
+  --surface-color-hover: rgba(0, 0, 0, 0.02);
+  --highlight-color: rgba(0, 0, 0, 0.1);
+  --switch-bg-url: url(./assets/sun.svg);
 }
 
 
@@ -42,10 +42,10 @@ body * {
 }
 
 /* profile */
- #profile {
+#profile {
   text-align: center;
   padding: 24px;
- }
+}
 
 #profile img {
   width: 112px;
@@ -65,7 +65,7 @@ body * {
 
   margin: 4px auto;
 }
- 
+
 #switch button {
   width: 32px;
   height: 32px;
@@ -99,7 +99,7 @@ body * {
   border-radius: 9999px;
 }
 
-/* links */ 
+/* links */
 ul {
   list-style: none;
 
@@ -110,7 +110,7 @@ ul {
   padding: 24px 0;
 }
 
-ul li a{
+ul li a {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -142,7 +142,7 @@ ul li a:hover {
 #social-links {
   display: flex;
   justify-content: center;
-  
+
 
   padding: 24px 0;
 
@@ -161,12 +161,11 @@ ul li a:hover {
 }
 
 #social-links a:hover {
-  background: var(--highlight-color) ;
+  background: var(--highlight-color);
 }
- 
+
 footer {
   padding: 24px 0;
   text-align: center;
   font-size: 14px;
 }
-
